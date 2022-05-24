@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+
+        <title>Crear Blog</title>
+    </head>
+    <body>
+        <header>
+            <h1>Creacion de un blog</h1>
+        </header>
+
+        <main>
+            <section>
+                <article>
+                    <form action="" method="post" enctype="multipart/form-data">
+                        <label for="title">Titulo del blog:</label><br>
+                        <input id="title" type="text" required><br>
+                        <label for="content">Contenido del Blog:</label><br>
+                        <textarea id="content" rows="10" cols="60" required></textarea><br>
+                        <label for="image">Imagen del blog:</label><br>
+                        <input id="image" type="file" accept="image/png, image/jpeg"><br>
+                        <label for="tags">Tema: </label><br>
+                        <select id="tags">
+                            <option>Seleccione tag..</option>
+                            <option>Otros</option>
+                        </select><br>
+                        <br><input id="submit" type="submit"><br>
+                    </form>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <br><br>
+            <a href="MyBlogs.html">Volver a mi Perfil</a><br>
+            <a href="index.html">Volver a la Pagina Principal</a>
+        </footer>
+    </body>
+</html>
